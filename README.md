@@ -60,12 +60,12 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/auroradream04/aurora-portfolio.git
+   git clone https://github.com/devstar969/devstar-portfolio.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd aurora-portfolio
+   cd devstar-portfolio
    ```
 
 3. Install dependencies:
