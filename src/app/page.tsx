@@ -52,7 +52,7 @@ export default async function Home() {
                     <Experiences />
                     <Projects />
                     <Technologies />
-                    <HomepageBlogs blogs={blogs} />
+                    {/* <HomepageBlogs blogs={blogs} /> */}
                     <ContactForm />
                     <Footer />
                     <SocialIcons />

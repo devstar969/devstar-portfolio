@@ -19,27 +19,27 @@ export async function generateMetadata({ params }: TProps): Promise<Metadata> {
 
     const description = stripHtmlAndDecode(blog.excerpt.rendered);
     return {
-        title: blog.title.rendered + " - Alvin Chang",
+        title: blog.title.rendered + " - Carley Robinson",
         description,
         keywords:
             blog.title.rendered +
             ", " +
             blog._embedded["wp:term"][1].map((tag: any) => tag.name).join(", "),
         alternates: {
-            canonical: `https://alvinchang.dev/blogs/${blog.slug}`,
+            canonical: `https://CarleyRobinson.dev/blogs/${blog.slug}`,
         },
         openGraph: {
-            title: blog.title.rendered + " - Alvin Chang",
+            title: blog.title.rendered + " - Carley Robinson",
             description,
-            url: `https://alvinchang.dev/blogs/${blog.slug}`,
+            url: `https://CarleyRobinson.dev/blogs/${blog.slug}`,
             type: "article",
-            siteName: "Alvin Chang",
+            siteName: "Carley Robinson",
             images: [
                 {
                     url: "/horizontal-logo.png",
                     width: 1100,
                     height: 300,
-                    alt: "Alvin Chang Portfolio Logo",
+                    alt: "Carley Robinson Portfolio Logo",
                 },
             ],
         },

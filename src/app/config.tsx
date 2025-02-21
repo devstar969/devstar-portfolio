@@ -6,6 +6,7 @@ import {
     RiTailwindCssFill,
     RiOpenaiFill,
     RiWordpressFill,
+    RiReactjsFill,
 } from "react-icons/ri";
 import {
     SiTypescript,
@@ -38,41 +39,41 @@ import { DiRedis } from "react-icons/di";
 
 
 export const siteConfig = {
-    name: "Alvin Chang",
-    title: "Alvin Chang | Full-Stack Developer",
-    email: "alvin@studioaurora.io",
+    name: "Carley Robinson",
+    title: "Carley Robinson | Full-Stack Developer",
+    email: "truecolor0121@gmail.com",
     alias: "Aurora",
     description:
-        "Alvin Chang is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Alvin creates digital solutions that are both functional and aesthetically pleasing.",
+        "Carley Robinson is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Carley creates digital solutions that are both functional and aesthetically pleasing.",
     keywords:
-        "Alvin Chang, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
-    url: "https://alvinchang.dev",
+        "Carley Robinson, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
+    url: "https://carleyrobinson.dev",
     taglines: [
         "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
         "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",
     ],
-    titles: ["Full-Stack Developer", "NextJS Developer", "Wordpress Developer"],
+    titles: ["Full-Stack Developer", "React, NextJS Developer", "Backend Developer"],
     socialLinks: [
         {
             icon: <FaGithub />,
-            url: "https://github.com/auroradream04",
+            url: "https://github.com/dragon0513",
         },
         {
             icon: <FaLinkedin />,
-            url: "https://www.linkedin.com/in/auroradream04/",
+            url: "https://www.linkedin.com/in/dragon0513/",
         },
         {
             icon: <FaSquareXTwitter />,
-            url: "https://x.com/aurora_dream04",
+            url: "https://x.com/dragon0513",
         },
         {
             icon: <FaDiscord />,
-            url: "https://discord.gg/pwYGjDebkF",
+            url: "https://discord.gg/VY73CaUQ",
         },
         {
             icon: <IoIosMail />,
-            url: "mailto:alvin@studioaurora.io",
+            url: "mailto:truecolor0121@gmail.com",
         },
     ],
     sections: {
@@ -94,17 +95,13 @@ export const siteConfig = {
                 label: "TECHNOLOGIES",
             },
             {
-                id: "blogs",
-                label: "BLOGS",
-            },
-            {
                 id: "contact",
                 label: "CONTACT",
             },
         ],
         aboutMe: `
             <p>
-                Hi! I'm Alvin, a <strong>full-stack developer</strong> who started coding in <strong>2023</strong>. Since then, I've built <strong>streaming platforms</strong>, <strong>blogs</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
+                Hi! This is <strong>Carley</strong>, I am highly skilled and results-driven <strong>Fullstack Developer</strong> with <strong>7+ years</strong> of experience designing, developing, and deploying scalable web applications. Proficient in modern technologies such as <strong>React</strong>, <strong>Next.js</strong>, <strong>Wordpress</strong>, <strong>Tailwind CSS</strong>, <strong>Node.js</strong>, <strong>TypeScript</strong>, <strong>Firebase</strong>, <strong>Supabase</strong>, and <strong>AWS</strong>, with a strong focus on delivering high-quality, user-centric solutions. Adept at collaborating with cross-functional teams to drive innovation and optimize performance.
             </p>
             <p>
                 When I’m not coding, you’ll find me playing <strong>Dota 2</strong>, cooking up new recipes, or streaming on <strong>Kick</strong>. Let's connect—I'd love to help with your next <strong>website</strong> or <strong>API</strong> project!
@@ -112,27 +109,55 @@ export const siteConfig = {
         `,
         experiences: [
             {
-                company: "Studio Aurora",
-                position: "Founder | Lead Developer",
-                duration: "2024 - Present",
+                company: "TechNova Solutions, San Francisco, CA",
+                position: "Senior Fullstack Developer",
+                duration: "2023.12 - 2024.11",
                 description:
-                    "Founded a web development agency focused on delivering high-quality websites and custom digital solutions. Lead the end-to-end development process, from client consultation and project planning to design implementation and deployment. Skilled in building scalable web apps, e-commerce platforms, and custom API integrations using modern frameworks like Next.js. Oversee a team of developers and coordinate projects to ensure timely delivery and client satisfaction.",
+                    "Led the development of a scalable e-commerce platform using Next.js, TypeScript, and Tailwind CSS, resulting in a 30% increase in page load speed and a 20% boost in conversion rates. " +
+                    "Designed and implemented RESTful APIs with Node.js and Express.js, integrating with Firebase for real-time data synchronization and Supabase for relational database management. " +
+                    "Optimized AWS infrastructure, reducing hosting costs by 25% through efficient use of EC2, S3, and Lambda services. " +
+                    "Mentored junior developers in best practices for React and TypeScript, improving team productivity and code quality. " +
+                    "Collaborated with UX/UI designers to create responsive, accessible, and visually appealing user interfaces.",
             },
             {
-                company: "Pingu Dev Inc.",
-                position: "Full-stack Engineer",
-                duration: "2023 - 2024",
+                company: "InnovateX, New York, NY",
+                position: "Full-stack Developer",
+                duration: "2020.7 - 2023.10",
                 description:
-                    "Developed various websites including streaming platforms, landing pages, and news sites using Next.js, WordPress, and Maccms. Built and managed APIs with Express.js, and leveraged web scraping to curate and generate content. Introduced automation processes to streamline workflows and built desktop applications with Electron for internal use.",
+                    "Developed a SaaS-based project management tool using React, Redux, and Node.js, serving over 10,000 active users. " +
+                    "Integrated third-party APIs for payment processing (Stripe) and authentication (Firebase Auth), ensuring secure. " + 
+                    "Implemented server-side rendering (SSR) with Next.js, improving SEO rankings and reducing initial page load times by 40%." +
+                    "Conducted code reviews and implemented CI/CD pipelines using GitHub Actions, reducing deployment errors by 15%. " +
+                    "Worked closely with product managers to deliver features on time and within budget, adhering to Agile methodologies",
+            },
+            {
+                company: "CloudForge, Austin, TX",
+                position: "Software Engineer (Fullstack)",
+                duration: "2018.3 - 2023.10",
+                description: "Built and deployed a real-time chat application using React, Node.js, and WebSockets, achieving 99.9% uptime and scalability for 5,000+ concurrent users. " +
+                    "Utilized AWS services (S3, Lambda) to create a serverless backend architecture, reducing operational overhead by 30%. " + 
+                    "Enhanced application performance by optimizing database queries and implementing caching strategies with Redis. " +
+                    "Collaborated with cross-functional teams to deliver a mobile-responsive web application, increasing user engagement by 25%. " +
+                    "Contributed to open-source projects, including a popular React component library, gaining 500+ stars on GitHub.",
+            },
+            {
+                company: "CodeCrafters, Seattle, WA",
+                position: "Junior Fullstack Developer",
+                duration: "2017.2 - 2028.3",
+                description: "Assisted in the development of a content management system (CMS) using React and Node.js, enabling clients to manage and publish content efficiently. " +
+                    "Integrated RESTful APIs for data retrieval and manipulation, ensuring seamless communication between frontend and backend systems. " + 
+                    "Wrote unit and integration tests using Jest and Cypress, achieving 95% test coverage and improving code reliability " +
+                    "Participated in daily stand-ups and sprint planning sessions, contributing to the successful delivery of multiple projects. " +
+                    "Gained hands-on experience with version control (Git) and collaborative development workflows.",
             },
         ],
         projects: [
             {
-                title: "Alvin Chang | Portfolio Website",
+                title: "Carley Robinson | Portfolio Website",
                 description:
                     "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
                 logo: "/logox.png",
-                repoLink: "https://github.com/auroradream04/aurora-portfolio",
+                repoLink: "https://github.com/dragon0513/portfolio",
                 technologies: [
                     {
                         icon: <RiNextjsFill className="text-[#FFF]" />,
@@ -151,15 +176,19 @@ export const siteConfig = {
                         name: "TypeScript",
                     },
                 ],
-                link: "https://alvinchang.dev",
+                link: "https://carleyrobinson.dev",
             },
             {
                 title: "Genzify AI",
                 description:
                     "GenZify is an AI-powered tool I developed to transform everyday text into trendy Gen Z-style language. I managed both the front-end design and back-end development, integrating AI functionality for smooth and creative rephrasings. The platform delivers a fun, engaging experience, perfect for anyone looking to add a modern twist to their communication. This project highlights my skills in blending AI with user-centric design to create a playful, interactive web tool.",
                 logo: "/genzify-logo.png",
-                repoLink: "https://github.com/auroradream04/genzify-app",
+                repoLink: "https://github.com/dragon0513/genzify-app",
                 technologies: [
+                    {
+                        icon: <RiReactjsFill className="text-[#01f3f2]" />,
+                        name: "React.js",
+                    },
                     {
                         icon: <RiNextjsFill className="text-[#FFF]" />,
                         name: "Next.js",
@@ -190,6 +219,10 @@ export const siteConfig = {
                 logo: "/whataboutpets-logo.png",
                 repoLink: "",
                 technologies: [
+                    {
+                        icon: <RiReactjsFill className="text-[#01f3f2]" />,
+                        name: "React.js",
+                    },
                     {
                         icon: <RiNextjsFill className="text-[#FFF]" />,
                         name: "Next.js",
@@ -229,12 +262,12 @@ export const siteConfig = {
                 repoLink: "",
                 technologies: [
                     {
-                        icon: <RiNextjsFill className="text-[#FFF]" />,
-                        name: "Next.js",
+                        icon: <RiReactjsFill className="text-[#01f3f2]" />,
+                        name: "React.js",
                     },
                     {
-                        icon: <RiWordpressFill className="text-[#21759B]" />,
-                        name: "WordPress",
+                        icon: <RiNextjsFill className="text-[#FFF]" />,
+                        name: "Next.js",
                     },
                     {
                         icon: <SiTypescript className="text-[#3178C6]" />,
